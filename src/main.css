@@ -1,0 +1,22 @@
+.Swiper-dots{
+    width: 1rem;
+    height: auto;
+    position: fixed;
+    z-index: 99999;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Swiper-dot{
+    width: .1rem;
+    height: .1rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin-top: .3rem;
+}
+.Swiper-dot.active{
+    width: .1rem;
+    height: .1rem;
+    background-color: aqua;
+}
